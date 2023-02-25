@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install git -y
+
 git clone https://github.com/Ayush1212/DevOps_project.git
 
 
