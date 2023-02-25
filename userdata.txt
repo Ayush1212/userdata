@@ -2,8 +2,13 @@
 
 git clone https://github.com/Ayush1212/DevOps_project.git
 
-chmod 777 -r DevOps_project
 
-cd DevOps_project
+#sudo cd DevOps_project/
 
-./jenkins.sh
+sudo chmod -R +x DevOps_project/*
+
+sleep 10s
+
+cd DevOps_project/
+
+sudo ./jenkins.sh
