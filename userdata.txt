@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git clone https://github.com/Ayush1212/DevOps_project.git
+
+chmod 777 -r DevOps_project
+
+cd DevOps_project
+
+./jenkins.sh
